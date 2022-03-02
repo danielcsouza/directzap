@@ -4,6 +4,8 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background: #e7e7e7;
+
 }
 
 a {
@@ -13,4 +15,30 @@ a {
 
 * {
   box-sizing: border-box;
+}
+.wrapper{
+  padding: 45px 0px;
+}
+.h2{
+  color: white; font-size: 270%; padding-top: 5%;
+}
+.form .message {
+  margin: 0px 15px;
+  height: 180px;
+  width: 98%;
+}
+.textarea{
+  min-height: calc(1.5em + 0.75rem + 2px);
+}
+.btnSub {
+
+  border-radius: 5px;
+  color:#fff;
+  background:  #009688;
+  padding: 15px 10px;
+  margin: 10px 30px;
+  border: none;
+  margin-bottom: 45px;
+  text-transform: uppercase;
+  font-weight: 700;
 }
