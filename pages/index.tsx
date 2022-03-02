@@ -5,14 +5,13 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
 const Home: NextPage = () => {
-const [ddi, setddi] = useState("+55");
 const [number, setNumber] = useState("");
 const [message, setMessage] = useState("");
 
 function handleSubmit(event: FormEvent) {
   event.preventDefault();
 
-  window.open(`https://api.whatsapp.com/send?phone=55${number}&text=${message}`);
+  window.open(`https://api.whatsapp.com/send?phone=+55${number}&text=${message}`);
 
 }
 
