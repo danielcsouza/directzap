@@ -35,6 +35,12 @@ function handleSubmit(event: FormEvent) {
         <meta name="msapplication-TileImage" content="/img/icons/144x144.png"/>
         <meta name="msapplication-TileColor" content="#0e6800"></meta>
 
+        <meta property="og:title" content="Direct Zap :: Envie mensagem para o zap sem adicionar contato" />
+        <meta property="og:url" content="https://directzap.vercel.app/" />
+        <meta property="og:image" content="https://directzap.vercel.app/img/icons/144x144.png" />
+        <meta property="og:type" content="site" />
+        <meta property="og:description" content="Envie mensagem para Whats App sem adicionar o número em sua lista de contato" />
+
         <link rel="manifest" href="manifest.json"/>
         
         <link rel="icon" href="/favicon.ico" />
