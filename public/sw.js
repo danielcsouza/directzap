@@ -10,7 +10,7 @@ self.addEventListener('install', function (e) {
           '/img/icons/48x48.png',
           '/img/icons/72x72.png',
           '/img/icons/96x96.png',
-          '/img/icons/144x114.png',
+          '/img/icons/144x144.png',
           '/img/icons/192x192.png',
           '/img/icons/256x256.png',
           '/img/icons/512x512.png',
