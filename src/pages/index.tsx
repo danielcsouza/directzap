@@ -51,7 +51,10 @@ function handleSubmit(event: FormEvent) {
            
    
 				<div className="col-md-12 form-group">
-          <InputTel mask={"99 99999 9999"}   onChange={e =>setNumber(e.target.value)}/>
+          <InputTel
+          mask={"99 99999 9999"}   
+          onChange={e =>setNumber(e.target.value)}
+          />
          
         </div>
                 
