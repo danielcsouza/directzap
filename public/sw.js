@@ -34,7 +34,7 @@ self.addEventListener('install', function (e) {
     event.waitUntil(
       caches.keys().then(function (keyList) {
         return Promise.all(keyList.map(function (key, i) {
-          if (key !== "fala-off-v1") {
+          if (key !== "direct-zap-v3") {
             return caches.delete(keyList[i])
           }
         }))
