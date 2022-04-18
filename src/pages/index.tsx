@@ -22,7 +22,21 @@ function handleSubmit(event: FormEvent) {
       <Head>
         <title>Direct Zap :: Envie mensagem para o zap sem adicionar contato</title>
         <meta name="description" content="Envie mensagem para Whats App sem adicionar o número em sua lista de contato" />
+
+        <meta name="mobile-web-app-capable" content="yes"/>
+        <link rel="icon" sizes="114x114" href="/img/icons/144x144.png"/>
+        <meta name="theme-color" content="#0e6800"/>
+
+        <meta name="apple-mobile-web-app-capable" content="yes"/>
+        <meta name="apple-mobile-web-app-title" content="Direct Zap :: Envie mensagem para o zap sem adicionar contato"/>
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
+        <link rel="apple-touch-icon-precomposed" href="/img/icons/144x144.png"/>
+
+        <meta name="msapplication-TileImage" content="/img/icons/144x144.png"/>
+        <meta name="msapplication-TileColor" content="#0e6800"></meta>
+
         <link rel="manifest" href="manifest.json"/>
+        
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
