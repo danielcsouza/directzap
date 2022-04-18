@@ -3,7 +3,6 @@ self.addEventListener('install', function (e) {
       caches.open('direct-zap-v3').then(function (cache) {
         return cache.addAll([
           '/',
-          '/index.html',
           '/img/logo.svg',
           '/manifest.json',
           '/img/icons/16x16.png',
